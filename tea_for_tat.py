@@ -1,4 +1,4 @@
-def tea_for_tat(my_history: list[int], opponent_history: list[int], rounds: int | None) -> int:
+def strategy(my_history: list[int], opponent_history: list[int], rounds: int | None) -> int:
     round_num = len(my_history)
     
     if round_num == 0:
